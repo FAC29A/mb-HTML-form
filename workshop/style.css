@@ -12,9 +12,15 @@ body {
 
 label,
 input,
+textarea,
 button {
   display: block;
   margin-top: 10px;
+}
+
+.marketingCheckbox {
+  display: flex;
+  align-items: center;
 }
 
 /* All inputs other than checkboxes & radios

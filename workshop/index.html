@@ -10,9 +10,24 @@
     <h1>Contact</h1>
 
     <!-- Your form goes here -->
-    <form id="form" action="https://learn-forms.netlify.com/submit/part1">
+    <form id="form" action="https://learn-forms.netlify.com/submit/part2">
+
       <label for="first-name">Name</label>
       <input id="first-name" type="text" name="name"/>
+
+      <label for="email">Email</label>
+      <input id="email" type="text" name="email"/>
+
+      <label for="tel">Telephone</label>
+      <input id="tel" type="tel" name="tel"/>
+
+      <label for="message">Message</label>
+      <textarea name="message"></textarea>
+
+      <div class="marketingCheckbox"> 
+        <input id="marketingConsent" name="marketingConsent" type="checkbox"/>
+        <label for="marketingConsent">Marketing Consent</label>
+      </div>
 
       <button type="submit">Submit</button>
     </form>
